@@ -1,0 +1,11 @@
+version = 1
+
+test_patterns = ["shippo/test/**"]
+
+exclude_patterns = ["examples/**"]
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
